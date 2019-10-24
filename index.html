@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Masters Academy</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Welcome to the course!</h1>
+    <img src="ma-logo.png" class="course-logo" alt="Masters Academy logo">
+
+    <div class="course-goal__text">
+      <p>Masters Academy is an IT career development center that aims to help students become masters of their business and get started in IT.</p>
+      <p>You can find our group <a href="https://www.facebook.com/groups/403999330312349/" target="_blank">here</a>.</p>
+    </div>
+
+    <div class="input-block--wrapper">
+      <div class="input-block">
+        <label for="course-name">Course Name:</label>
+        <input id="course-name" type="text" placeholder="e.g. Frontend">
+      </div>
+
+      <div class="input-block">
+        <label for="course-people__count">People Count:</label>
+        <input id="course-people__count" type="number" placeholder="e.g. 30">
+      </div>
+
+      <button id="course-add__button">Add the Course!</button>
+    </div>
+
+    <p>Total students: <b id="course-total-students__count"></b></p>
+
+    <ul id="course-list"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+

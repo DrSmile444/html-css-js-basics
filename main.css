@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #fe9e06;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.course-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.input-block--wrapper {
+    width: 100%;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.input-block input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #fe9e06;
+    border-radius: 5px;
+    outline: none;
+}
+
+#course-add__button {
+    width: 100%;
+    color: white;
+    background-color: #fe9e06;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#course-list {
+    width: 100%;
+    padding: 0;
+}
+
+.course-list__item {
+    transition: all 0.5s;
+    padding: 5px;
+    white-space: nowrap;
+}
